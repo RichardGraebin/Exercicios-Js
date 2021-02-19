@@ -1,0 +1,27 @@
+body {
+    background: #383838;
+    color: white;
+    font: normal 18px Arial;
+}
+
+header {
+    text-align: center;
+}
+
+section {
+    background: white;
+    width: 400px;
+    margin: auto;
+    color: #161616;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.255);
+    text-align: center;   
+}
+
+#imagem {
+    margin-top: 20px;
+}

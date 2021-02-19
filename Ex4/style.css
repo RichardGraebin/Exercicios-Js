@@ -1,0 +1,29 @@
+body {
+    background: #383838;
+    color: white;
+    font: normal 18px Arial;
+}
+
+h1 {
+    text-align: center;
+}
+
+section {   
+    margin: auto;
+    background-color: white;
+    color: #161616;
+    width: 400px;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 10px;
+    padding: 5px;
+    padding-left:10px;
+}
+
+footer {
+    text-align: center;
+    margin: 10px;
+}
+
+#verif {
+    font: normal 15px Arial;
+}

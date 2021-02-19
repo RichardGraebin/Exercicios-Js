@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gênero e Idade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <h1>Informe-nos suas credênciais</h1>
+    </header>
+
+    <section>
+        <div>
+
+            <p id='p1'>
+                <span id='txtano'>Digite o ano em que você nasceu:</span> <input type="number" id="ano"> 
+            </p>
+         
+            <p id='p2'> <span id='txtsex'>Selecione o seu sexo:</span> 
+                <input type="radio" name='sex' id='masc'> Masculino
+                <input type="radio" name='sex' id="femi"> Feminino
+            </p> <br>
+
+            <p id='p3'>
+                <input type="button" id="verif" value='Verificar' onclick="verif()">
+            </p>
+
+        </div>
+
+        <div>
+            <p id='div2'></p>
+        </div>
+    </section>
+
+    <footer>
+        Rodapé ©
+    </footer>
+
+    <script src='script.js'></script>
+</body>
+</html>
